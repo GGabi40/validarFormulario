@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: teal;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: serif, sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: Times, serif, sans-serif;
+}
+
+label {
+    display: block;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    display: block;
+    padding: 0.6rem;
+    margin-bottom: 1.2rem;
+    width: 100%;
+    height: 20px;
+}
+
+li {
+    font-size: 1.6rem;
+}
+
+main {
+    background-color: white;
+    padding: 5rem;
+    margin: 2rem auto;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+main ul {
+    padding: 3rem;
+}
+
+#submit {
+    background: linear-gradient(-180deg,
+    rgb(0, 207, 207) 50%,
+    teal
+    );
+
+    font-size: 2.5rem;
+    margin: 5px auto;
+    border: none;
+    height: 60px;
+
+    color: rgb(58, 58, 58);
+}
+
+#submit:hover {
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    background: rgb(0, 207, 207);
+}
+
+.error-text {
+    font-size: 1.4rem;
+    color: red;
+
+    margin-bottom: 1rem
+}
+
+#labelError {
+    font-weight: 800;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar Form Con Class</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main>
+        <h1>Formulario de Cadastro</h1>
+
+        <ul>
+            <li>Nenhum campo pode estar vazio.</li>
+            <li>Usuário só poderá conter letras e/ou números.</li>
+            <li>Usuário deverá ter entre 3 e 12 caracteres.</li>
+            <li>A senha precisa ter entre 6 e 12 caracteres.</li>
+        </ul>
+
+        <form action="/" method="post" class="formulario">
+            <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" class="validar">
+
+            <label for="surname">Sobrenome:</label>
+                <input type="text" name="surname" id="surname" class="validar">
+
+            <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="cpf" class="cpf validar">
+
+            <label for="usuario">Usuário:</label>
+                <input type="text" name="usuario" id="usuario" class="usuario validar">
+
+            <label for="pass">Senha:</label>
+                <input type="password" name="pass" id="pass" class="pass validar">
+
+            <label for="pass-again">Repetir senha:</label>
+                <input type="password" name="pass-again" id="pass-again" class="pass-again validar" >
+
+
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </main>
+
+    <script src="./validaCPF.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
